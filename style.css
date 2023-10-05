@@ -130,5 +130,44 @@ h2 {
   .hero {
   background: #f9f7fe;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 50px; 
+  margin-top: 100px;
+}
+.paragraph{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: black;
+  margin-left: 9px;
+}
+
+img {
+  object-fit: contain;
+}
+
+.asos-photo{
+  max-widht: 100px;
+  border-radius: 30px;
+
+
 }
