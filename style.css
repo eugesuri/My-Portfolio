@@ -166,7 +166,7 @@ h2 {
 p {
   background: var(--primary-color);
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 6px;
   font-size: 18px;
   line-height: 1.5;
   font-family:Arial, Helvetica, sans-serif;
@@ -175,5 +175,32 @@ p {
 
 
 
+footer{
+  text-align:center;
+font-family: 'Playfair Display', serif;
+}
 
 
+a:hover{
+  color:pink;
+}
+
+
+
+#copyright {
+  text-align: center;
+  display:block;
+font-family:Arial, Helvetica, sans-serif;
+  background-color: black;
+  padding: 10px;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: white;
+}
+
+#copyright a:hover {
+  color: pink;
+  cursor: pointer;
+}
