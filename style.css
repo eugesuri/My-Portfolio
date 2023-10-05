@@ -161,13 +161,21 @@ h2 {
   margin-left: 9px;
 }
 
-img {
-  object-fit: contain;
+
+
+.home-projects {
+    background-color: var(--background-color);
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
 }
 
-.asos-photo{
-  max-widht: 100px;
-  border-radius: 30px;
-height: auto; 
+.work-img {
+  border: 1px solid white;
+  border-radius: 20px;
+}
 
+.work-imgs {
+  margin-bottom: 100px;
 }
