@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #f2e8e8;
+    --secondary-color: #f094d3;
+    --primary-font-family: font-family: 'Gentium Plus', serif;
+     --secondary-font-family: 'Playfair Display', serif;
+}
+
+
+
 .img-fluid {
   max-width: 100px;
   border-radius: 50px;
@@ -92,3 +101,30 @@ img {
   position: relative;
   bottom: -50px;
 }
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  margin: 0auto;
+  font-family: var(--secondary-font-family);
+  margin-top: 10px;
+
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  margin-bottom: 3rem;}
+
+
+  h3{
+    font-size: 38px;
+    text-align:center;
+    font-family: var(--secondary-font-family);
+  margin-bottom: 3rem;
+  opacity: 0.7;
+  color:grey;
+
+  }
+  
