@@ -168,6 +168,6 @@ img {
 .asos-photo{
   max-widht: 100px;
   border-radius: 30px;
-
+height: auto; 
 
 }
