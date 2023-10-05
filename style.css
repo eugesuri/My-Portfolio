@@ -62,21 +62,33 @@ img {
   font-weight: 400;
 }
 
-.instagram-icon {
-  position: static !important;
-}
-
-.email-icon {
-  position: static !important;
-}
-
-.email-icon {
-  position: relative;
-  bottom: -100px;
-}
-
 .social-icons i:hover {
   color: white;
   background-color: blueviolet;
   cursor: pointer;
+}
+
+.social-icons {
+  font-size: 35px;
+  color: var(--branding-color) !important;
+}
+
+.email-icon {
+  position: relative;
+  bottom: -55px;
+}
+
+.instagram-icon {
+  position: relative;
+  bottom: -105px;
+}
+
+.linkedin-icon {
+  position: relative;
+  bottom: -100px;
+}
+
+.github-icon {
+  position: relative;
+  bottom: -50px;
 }
