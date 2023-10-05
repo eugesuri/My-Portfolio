@@ -7,10 +7,6 @@
 
 
 
-.img-fluid {
-  max-width: 100px;
-  border-radius: 50px;
-}
 
 .navbar {
   background-color: #fde3e9;
@@ -162,20 +158,6 @@ h2 {
 }
 
 
-
-.home-projects {
-    background-color: var(--background-color);
-    padding: 20px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50px;
-}
-
-.work-img {
-  border: 1px solid white;
-  border-radius: 20px;
-}
-
-.work-imgs {
-  margin-bottom: 100px;
+.logo{
+  max-width:100px;
 }
