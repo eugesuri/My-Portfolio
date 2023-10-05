@@ -1,6 +1,6 @@
 :root {
     --primary-color: #f2e8e8;
-    --secondary-color: #f094d3;
+    --secondary-color: #ecb0d9;
     --primary-font-family: font-family: 'Gentium Plus', serif;
      --secondary-font-family: 'Playfair Display', serif;
 }
@@ -161,3 +161,19 @@ h2 {
 .logo{
   max-width:100px;
 }
+
+
+p {
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+
+
+
