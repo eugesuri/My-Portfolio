@@ -72,21 +72,7 @@ img {
   background-color: blueviolet;
   cursor: pointer;
 }
-@media (max-width: 900px) {
-  .email-link {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 36px;
-  }
-  h1 {
-    font-size: 48px;
-  }
-  .social-icons{
-    font-size: 35px;
 
-  }
-}
 .social-icons {
   font-size: 35px;
   color: var(--branding-color) !important;
@@ -216,3 +202,82 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 
+@media (max-width: 900px) {
+  .body-content {
+    margin: 25px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+    margin-bottom: 40px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .hero {
+    padding: 10px 20px;
+    line-height: 1.5;
+  }
+  .hero .intro {
+    margin: 0;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .intro-img {
+    margin: 40px 0px;
+  }
+  .content {
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+  }
+  .content h1 {
+    font-size: 44px;
+    line-height: 56px;
+    margin: 0 !important;
+  }
+  .content-container {
+    padding-top: 10px;
+    margin: 20px !important;
+    text-align: center;
+  }
+  .content h2 {
+    line-height: 30px;
+  }
+  .email-icon {
+    position: static !important;
+  }
+
+  .instagram-icon {
+    position: static !important;
+  }
+
+  .linkedin-icon {
+    position: static !important;
+  }
+
+  .github-icon {
+    position: static !important;
+  }
+
+  .email-link {
+    padding: 0;
+  }
+
+  .about-me {
+    text-align: center;
+    padding: 30px;
+  }
+  .about-img {
+    position: static !important;
+  }
+}
