@@ -54,11 +54,7 @@ img {
   font-size: 35px;
   
 }
-.boxes{
-  display:grid;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 
-}
 
 .social-icons i {
   color: blueviolet;
