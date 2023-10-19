@@ -27,7 +27,7 @@
 }
 
 .img-fluid1 {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -189,7 +189,8 @@ a:hover{
   display:block;
 font-family:Arial, Helvetica, sans-serif;
   background-color: black;
-  padding: 10px;
+  padding: 5px;
+  margin-top: 50px;
 }
 
 #copyright a {
